@@ -1,0 +1,20 @@
+{
+  "name": "git_project_code",
+  "version": "1.0.0",
+  "description": "Student Smart Planner is a **Full-Stack web application** designed for university students to manage their academic workload. \r Unlike simple task lists, this system implements a complete **Client-Server-Database** architecture to provide a personalized and data-driven experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EhudThomasSegev/Team-Smart-Student-Planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EhudThomasSegev/Team-Smart-Student-Planner/issues"
+  },
+  "homepage": "https://github.com/EhudThomasSegev/Team-Smart-Student-Planner#readme"
+}
