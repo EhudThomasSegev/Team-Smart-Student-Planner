@@ -28,22 +28,23 @@ The project follows **Agile/Scrum** methodology.
 * **Jira Board:** https://student-planner-site.atlassian.net/jira/software/projects/PDM/boards/1
 * **Workflow:** Branch-based development with mandatory Pull Request reviews.
 
-
-## Installation & Setup
+---
 
 #  Project Setup & Contribution Guide
 
-## Prerequisites (Mandatory)
-### 1. Install Git
-Download and install Git from the official website: [git-scm.com](https://git-scm.com/).
-*During installation, you can keep the default settings (just click "Next").*
+## Installation & Setup
+### 1. Prerequisites (Mandatory)
+* **Git:** [Download here](https://git-scm.com/)
+* **Node.js:** (v16+) [Download here](https://nodejs.org/)
+
 ### 2. Identity Setup (One-time)
-Open your terminal (or VSCode terminal) and run these commands with your details:
+Open your terminal and run these commands with your details:
 ```bash
 git config --global user.name "Your Full Name"
 git config --global user.email "your-email@example.com"
+
 ### 3. Download the Project (Clone)
-Navigate to the folder where you want to keep your projects, and run:
+Navigate to your projects folder and run:
 git clone [https://github.com/EhudThomasSegev/Team-Smart-Student-Planner](https://github.com/EhudThomasSegev/Team-Smart-Student-Planner)
 Note: This will create the project folder for you automatically.
 
@@ -55,7 +56,7 @@ Note: This will create the project folder for you automatically.
 Server is running at: http://localhost:5000
 
 ## Daily Workflow (How to contribute)
-To keep the project organized and avoid conflicts, follow these steps exactly:
+To avoid merge conflicts, follow these steps:
 Step 1: Get the latest changes
 Always start your day by pulling the latest code: git pull
 Step 2: Make your changes
