@@ -38,36 +38,36 @@ The project follows **Agile/Scrum** methodology.
 * **Node.js:** [Download here](https://nodejs.org/)
 
 ### 2. Identity Setup (One-time)  
-    Open your terminal and run these commands with your details:
+* Open your terminal and run these commands with your details:
 ```bash
 git config --global user.name "Your Full Name"
 git config --global user.email "your-email@example.com"
 ```
 ### 3. Download the Project (Clone)  
-    Navigate to your projects folder and run:
+* Navigate to your projects folder and run:
 ```bash
 git clone https://github.com/EhudThomasSegev/Team-Smart-Student-Planner.git
 ```  
-    Note: This will create the project folder for you automatically.
+Note: This will create the project folder for you automatically.  
 
-### 4. running the server (Backend)
-   **1. Open the project in VSCode.**    
-   **2. In the terminal, navigate to the server folder:**   
+
+### 4. running the server (Backend)  
+* **1. Open the project in VSCode.**  
+* **2. In the terminal, navigate to the server folder:**   
 ```bash
 cd server
-```
-   **3. Install the necessary libraries (one-time or after updates):** 
+```  
+* **3. Install the necessary libraries (one-time or after updates):** 
 ```bash
 npm install
-```
-   **4. Start the server:** 
+```  
+* **4. Start the server:** 
 ```bash
 node index.js
 ```
-Server is running at: http://localhost:5000
-  
+Server is running at: http://localhost:5000  
 
-
+   
 ## Daily Workflow (How to contribute)
 To avoid merge conflicts, follow these steps:  
 **Step 1:** Get the latest changes: 
