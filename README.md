@@ -2,12 +2,11 @@
 
 ## Project Description
 
-Student Smart Planner is a **Full-Stack web application** designed for university students to manage their academic workload. Unlike simple task lists, this system implements a complete **Client-Server-Database** architecture to provide a personalized and data-driven experience.
-
+Student Smart Planner is a **Full-Stack web application** designed for university students to manage their academic workload. Unlike simple task lists, this system implements a complete **Client-Server-Database** architecture to provide a personalized and data-driven experience. 
 This project is the primary deliverable for the **Software Project Management** course (Week 12 Goal).
 
 ## Team Members & Roles
-* **Ehud Thomas segev** - Scrum Master & Product Owner
+* **Ehud thomas Segev** - Scrum Master & Product Owner
 * **Nizar Moklada** - Full Stack Developer
 * **Ahrar Assleh** - QA Engineer & DevOps
 
@@ -29,7 +28,8 @@ The project follows **Agile/Scrum** methodology.
 * **Workflow:** Branch-based development with mandatory Pull Request reviews.
 
 ---
-
+  
+    
 # Project Setup & Contribution Guide
 
 ## Installation & Setup
@@ -39,44 +39,42 @@ The project follows **Agile/Scrum** methodology.
 
 ### 2. Identity Setup (One-time)
 Open your terminal and run these commands with your details:
-bash
+```bash
 git config --global user.name "Your Full Name"
 git config --global user.email "your-email@example.com"
-
+```
 ### 3. Download the Project (Clone)
 Navigate to your projects folder and run:
 ```bash
-git clone [https://github.com/EhudThomasSegev/Team-Smart-Student-Planner](https://github.com/EhudThomasSegev/Team-Smart-Student-Planner)
+git clone https://github.com/EhudThomasSegev/Team-Smart-Student-Planner.git
 ```
 Note: This will create the project folder for you automatically.
 
-## running the server (Backend)
-1. Open the project in VSCode.
-2. In the terminal, navigate to the server folder: 
+### 4. running the server (Backend)
+1. **Open the project in VSCode.**
+2. **In the terminal, navigate to the server folder:** 
 ```bash
 cd server
-```
-3. Install the necessary libraries (one-time or after updates): 
-```bash
+#**3. Install the necessary libraries (one-time or after updates):** 
+bash
 npm install
-```
-4. Start the server: 
-```bash
+#**4. Start the server:** 
+bash
 node index.js
 ```
 Server is running at: http://localhost:5000
-
+  
+    
 ## Daily Workflow (How to contribute)
-To avoid merge conflicts, follow these steps:
+To avoid merge conflicts, follow these steps:  
 **Step 1:** Get the latest changes: 
 ```bash
-git pull
-```
-**Step 2:** Make your changes in VSCode.
-**Step 3:** Save and Upload (Commit & Push)
-```bash
+git pull  
+#**Step 2:** Make your changes in VSCode.  
+#**Step 3:** Save and Upload (Commit & Push)
+bash
 git add .
 git commit -m "PDM-XX: brief description of what you did"
 git push
 ```
-Important: Replace PDM-XX with your specific Jira task key (e.g., PDM-20).
+**Important:** Replace PDM-XX with your specific Jira task key (e.g., PDM-20).
