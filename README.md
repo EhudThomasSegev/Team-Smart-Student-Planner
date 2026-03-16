@@ -6,9 +6,9 @@ Student Smart Planner is a **Full-Stack web application** designed for universit
 This project is the primary deliverable for the **Software Project Management** course (Week 12 Goal).
 
 ## Team Members & Roles
-* **Ehud thomas Segev** - Scrum Master & Product Owner (Lead: User & Auth)
-* **Nizar Moklada** - Full Stack Developer (Lead: Core Task System)
-* **Ahrar Assleh** - QA Engineer & DevOps (Lead: Analytics & Reporting)
+* **Ehud thomas Segev** - Scrum Master & Product Owner    (**Lead:** User & Auth)
+* **Nizar Moklada** - Full Stack Developer    (**Lead:** Core Task System)
+* **Ahrar Assleh** - QA Engineer & DevOps    (**Lead:** Analytics & Reporting)
 
 ## Technology Stack
 * **Frontend:** HTML, CSS, JavaScript
@@ -37,36 +37,37 @@ The project follows **Agile/Scrum** methodology.
 * **Git:** [Download here](https://git-scm.com/)
 * **Node.js:** [Download here](https://nodejs.org/)
 
-### 2. Identity Setup (One-time)
+### 2. Identity Setup (One-time)  
     Open your terminal and run these commands with your details:
 ```bash
 git config --global user.name "Your Full Name"
 git config --global user.email "your-email@example.com"
 ```
-### 3. Download the Project (Clone)
+### 3. Download the Project (Clone)  
     Navigate to your projects folder and run:
 ```bash
 git clone https://github.com/EhudThomasSegev/Team-Smart-Student-Planner.git
-```
+```  
     Note: This will create the project folder for you automatically.
 
 ### 4. running the server (Backend)
-**1. Open the project in VSCode.**
-**2. In the terminal, navigate to the server folder:** 
+   **1. Open the project in VSCode.**    
+   **2. In the terminal, navigate to the server folder:**   
 ```bash
 cd server
 ```
-**3. Install the necessary libraries (one-time or after updates):** 
+   **3. Install the necessary libraries (one-time or after updates):** 
 ```bash
 npm install
 ```
-**4. Start the server:** 
+   **4. Start the server:** 
 ```bash
 node index.js
 ```
 Server is running at: http://localhost:5000
   
-    
+
+
 ## Daily Workflow (How to contribute)
 To avoid merge conflicts, follow these steps:  
 **Step 1:** Get the latest changes: 
@@ -80,7 +81,8 @@ git add .
 git commit -m "PDM-XX: brief description of what you did"
 git push
 ```
-**Important:** Replace PDM-XX with your specific Jira task key (e.g., PDM-20).  
+**Important:** Replace PDM-XX with your specific Jira task key (e.g., PDM-20).    
+
 ---  
 
 
