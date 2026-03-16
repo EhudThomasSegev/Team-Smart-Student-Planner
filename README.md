@@ -27,9 +27,9 @@ The project follows **Agile/Scrum** methodology.
 * **Jira Board:** https://student-planner-site.atlassian.net/jira/software/projects/PDM/boards/1
 * **Workflow:** Branch-based development with mandatory Pull Request reviews.
 
----
-  
-    
+--  
+
+
 # Project Setup & Contribution Guide
 
 ## Installation & Setup
@@ -55,11 +55,13 @@ Note: This will create the project folder for you automatically.
 2. **In the terminal, navigate to the server folder:** 
 ```bash
 cd server
-#**3. Install the necessary libraries (one-time or after updates):** 
-bash
+```
+**3. Install the necessary libraries (one-time or after updates):** 
+```bash
 npm install
-#**4. Start the server:** 
-bash
+```
+**4. Start the server:** 
+```bash
 node index.js
 ```
 Server is running at: http://localhost:5000
@@ -70,9 +72,10 @@ To avoid merge conflicts, follow these steps:
 **Step 1:** Get the latest changes: 
 ```bash
 git pull  
-#**Step 2:** Make your changes in VSCode.  
-#**Step 3:** Save and Upload (Commit & Push)
-bash
+```
+**Step 2:** Make your changes in VSCode.  
+**Step 3:** Save and Upload (Commit & Push)
+```bash
 git add .
 git commit -m "PDM-XX: brief description of what you did"
 git push
