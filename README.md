@@ -45,38 +45,38 @@ git config --global user.email "your-email@example.com"
 
 ### 3. Download the Project (Clone)
 Navigate to your projects folder and run:
-bash
+```bash
 git clone [https://github.com/EhudThomasSegev/Team-Smart-Student-Planner](https://github.com/EhudThomasSegev/Team-Smart-Student-Planner)
-
+```
 Note: This will create the project folder for you automatically.
 
 ## running the server (Backend)
 1. Open the project in VSCode.
 2. In the terminal, navigate to the server folder: 
-bash
+```bash
 cd server
-
+```
 3. Install the necessary libraries (one-time or after updates): 
-bash
+```bash
 npm install
-
+```
 4. Start the server: 
-bash
+```bash
 node index.js
-
+```
 Server is running at: http://localhost:5000
 
 ## Daily Workflow (How to contribute)
 To avoid merge conflicts, follow these steps:
 **Step 1:** Get the latest changes: 
-bash
+```bash
 git pull
-
+```
 **Step 2:** Make your changes in VSCode.
 **Step 3:** Save and Upload (Commit & Push)
-bash
+```bash
 git add .
 git commit -m "PDM-XX: brief description of what you did"
 git push
-
+```
 Important: Replace PDM-XX with your specific Jira task key (e.g., PDM-20).
