@@ -42,7 +42,7 @@ Open your terminal and run these commands with your details:
 ```bash
 git config --global user.name "Your Full Name"
 git config --global user.email "your-email@example.com"
-
+```
 ### 3. Download the Project (Clone)
 Navigate to your projects folder and run:
 git clone [https://github.com/EhudThomasSegev/Team-Smart-Student-Planner](https://github.com/EhudThomasSegev/Team-Smart-Student-Planner)
